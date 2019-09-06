@@ -1,7 +1,7 @@
-
-<div class="container" style="align-items: center;">
-  <h1>Restaurant: <%= @restaurant.name %></h1>
-  <h3>Address: <%= @restaurant.address %></h3>
-  <h3>Category: <%= @restaurant.category %></h3>
+<div class="container d-flex flex-column justify-content-center pt-5">
+  <br>
+  <h1><%= @restaurant.name.upcase %></h1>
+  <h5>Address: <%= @restaurant.address %></h3>
+  <h5>Category: <%= @restaurant.category.capitalize %></h3>
   <img src="https://cdn2.lamag.com/wp-content/uploads/sites/6/2019/02/JVB_exterior_JoshuaWhite-1068x854.jpg" style="width: 400px;">
 </div>
